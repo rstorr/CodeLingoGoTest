@@ -25,6 +25,12 @@ func addLoop(a int, b int) int {
 	return sum
 }
 
+func reubenNewFunc() {
+	s := "stringA"
+	s1 := "stringB"
+	fmt.Println(s + s1)
+}
+
 func arrayFunc() {
 	var a [2]string
 	a[0] = "Hello"
@@ -51,4 +57,5 @@ func main() {
 	arrayFunc()
 	slicesFunc()
 	structFunc()
+	reubenNewFunc()
 }
