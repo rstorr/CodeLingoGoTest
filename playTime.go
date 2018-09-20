@@ -57,6 +57,10 @@ func slicesFunc() {
 	fmt.Println(s)
 }
 
+func imCoolFunc(str string) {
+	fmt.Println(str + " is cool.")
+}
+
 func main() {
 	fmt.Println("sum is ", add(10, 19))
 	fmt.Println("Total sum =", addLoop(0, 8))
@@ -65,4 +69,5 @@ func main() {
 	structFunc()
 	reubenNewFunc()
 	addSomeNums()
+	imCoolFunc("Reuben")
 }
