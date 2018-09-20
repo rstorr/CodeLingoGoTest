@@ -1,7 +1,4 @@
-
 tenets:
-  - import: codelingo/go
-
   - name: find-funcs
     doc: Example tenet that finds all functions.
     flows:
@@ -10,5 +7,5 @@ tenets:
     query: |
       import codelingo/ast/common
 
-      @review.comment
-      common.func(depth = any)
+      @ review.comment
+      common.func({depth: any})
