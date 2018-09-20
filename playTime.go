@@ -31,6 +31,12 @@ func reubenNewFunc() {
 	fmt.Println(s + s1)
 }
 
+func addSomeNums() {
+	numA := 7
+	numB := 5
+	fmt.Println(numA + numB)
+}
+
 func arrayFunc() {
 	var a [2]string
 	a[0] = "Hello"
@@ -58,4 +64,5 @@ func main() {
 	slicesFunc()
 	structFunc()
 	reubenNewFunc()
+	addSomeNums()
 }
