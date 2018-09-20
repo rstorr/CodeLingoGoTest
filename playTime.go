@@ -7,6 +7,10 @@ type myVertex struct {
 	Y int
 }
 
+func functionFunc() {
+	fmt.printl("blahhh")
+}
+
 func structFunc() {
 	v := myVertex{1, 2}
 	v.X = 4
@@ -70,4 +74,5 @@ func main() {
 	reubenNewFunc()
 	addSomeNums()
 	imCoolFunc("Reuben")
+	functionFunc()
 }
