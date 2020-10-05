@@ -20,6 +20,9 @@ func structFunc() {
 	fmt.Println(v.X)
 
 	schemaF := flag.String("schemaF", "../../types/schema.json", "Path to the file that specifies schema in json format")
+	flag2 := flag.Bool("AAAAA", "../../types/schema.json", "Path to the file that specifies schema in json format")
+	flag3 := flag.Int("schaF", "../../types/schema.json", "Path to the file that specifies schema in json format")
+	flag4 := flag.String("schema", "../../types/schema.json", "Path to the file that specifies schema in json format")
 }
 
 func add(a int, b int) int {
