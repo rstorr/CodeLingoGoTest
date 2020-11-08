@@ -14,9 +14,7 @@ func structFunc() {
 	fmt.Println(v.X)
 }
 
-/**
-* comment is bad
-**/
+// comment_is_bad
 func add(a int, b int) int {
 	return a + b
 }
