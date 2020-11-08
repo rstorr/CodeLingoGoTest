@@ -7,12 +7,16 @@ type myVertex struct {
 	Y int
 }
 
+// comment is good
 func structFunc() {
 	v := myVertex{1, 2}
 	v.X = 4
 	fmt.Println(v.X)
 }
 
+/**
+* comment is bad
+**/
 func add(a int, b int) int {
 	return a + b
 }
