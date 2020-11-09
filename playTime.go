@@ -19,6 +19,7 @@ func add(a int, b int) int {
 	return a + b
 }
 
+// comment_is_bad
 func addLoop(a int, b int) int {
 	sum := a
 	for i := 0; i < b; i++ {
