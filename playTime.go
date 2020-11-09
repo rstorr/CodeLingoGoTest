@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-type myVertex struct {
+type myVertexz struct {
 	X int
 	Y int
 }
